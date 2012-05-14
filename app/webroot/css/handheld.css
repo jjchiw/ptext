@@ -1,0 +1,11 @@
+/*Handheld specific CSS*/
+* {
+  float: none;
+}
+
+body { font-size: 1.4em; }
+#content { width: auto; }
+.dialogo p { margin: 1em 0; padding: 0 15px; }
+.dialogo p span { visibility: visible; }
+.dialogo p:before { content: ""; }
+#fotos { display: none; }

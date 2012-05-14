@@ -1,0 +1,228 @@
+body { 
+	background: #666; 
+	color: #fff; 
+	font-family: Georgia, "Times New Roman", serif;
+ 	font-size: 2em;	
+}
+
+a {  color: #fc3; }
+a:visited { text-decoration: none; }
+a:hover { color: #fff; }
+
+small {
+	padding: 0;
+	text-align: right;
+}
+
+small a {
+	color: #333 !important;
+}
+
+small a:hover {
+	color: #333;
+}
+
+iframe {
+	margin-bottom: 2px;
+}
+
+.center { text-align: center; }
+.right { text-align: right; }
+
+header { text-align: center; }
+
+#content { 
+	margin: 5px auto; 
+	width: 640px;
+	padding: 0 10px;
+}
+
+#index #content {
+	width: 800px;
+	font-size: 16px;
+}
+
+.map { 
+	border: 1px solid #fff;
+	padding: 10px;
+}
+
+/*Tabs*/
+#tabs {
+	font-family: Georgia, "Times New Roman", serif;	
+}
+
+#tabs h2 {
+	color: #666;
+}
+
+#tabs h3 {
+	color: #999;
+}
+
+#list li {
+	padding: 0.3em 0;
+}
+
+#list i {
+	color: #999;
+}
+#list a {
+	color: #333;
+}
+
+#list a:hover {
+	color: #fc3;
+}
+
+.map.ui-tabs-panel {
+	padding: 10px;
+}
+
+.ui-tabs-nav li {	
+}
+
+
+#fotos {
+	text-align: center;
+	padding: 5px;
+}
+
+#fotos a img {
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 30%;
+}
+
+#fotos a:hover img {
+	background: #eee;
+	border: 1px solid white;
+}
+
+#share { text-align: right; margin-top: 5px; }
+
+.dialogo p { margin: 1.5em 0; padding: 0 80px; }
+/*.dialogo p:before { content: "\336"; }
+.dialogo p span { visibility: hidden; }*/
+
+p.addendum { margin-top: -1em;}
+
+footer { text-align: center; width: 100%;}
+#faq {}
+#faq li {
+	list-style-type: none; 
+	display: inline;
+	padding: 0 10px;
+}
+#index footer,
+#qrtemplate footer { font-size: 40%; }
+
+/*Jeditable styles */
+.edit_area, .thnx, .comment a {
+	font-style: italic;
+}
+
+.edit_area{
+	font-size: 0.8em;
+	padding: 5px;
+	margin-bottom: 1.5em;
+	color: #fc3;
+}
+
+.edit_area:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+.editable textarea {
+	min-height: 70px;
+	background-color: #666;
+	border: 1px solid white;
+	color: #fff;
+	
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.5em;	
+}
+
+.editable button {
+	padding: 5px;
+	background: #333;
+	color: #fff;
+	font-weight: bold;
+}
+
+.comment {
+	margin: 1.0em auto;
+	position: relative;
+}
+
+.comment_details {
+	display: block;
+	color: #ccc;
+	font-size: 40%;
+	visibility: hidden;
+	
+}
+
+.comment a {
+	font-size: .6em;
+	display: block;
+	width: 120px;
+	padding: 10px 0 ;
+	margin-top: 0px;
+	position: absolute;
+	top: 0;
+	right: -120px;
+	color: #999;
+	text-decoration: none;
+}
+
+.comment a:hover {
+	color: #fc3;
+	text-decoration: underline;
+}
+
+.thnx {
+	font-size: 0.7em;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+/*QR template*/
+
+#qrtemplate {
+	background: white;
+	text-align: left;
+	padding: 5px;
+	color: #333;
+	font-size: 90%;
+}
+
+#qrtemplate header,
+#qrtemplate #content,
+#qrtemplate footer {
+	text-align: left;
+	margin: 0;
+}
+
+#qrtemplate header {
+	padding: 26px;
+}
+
+#commentqr {
+	width: 210px;
+	height: 210px;
+	position: absolute;
+	top: 41px;
+	left: 235px;
+}
+
+#qrtemplate #content {
+	margin-top: 25px;
+	border-top:  2px dashed #666;
+	text-align: left;
+}
+
+#qrtemplate .about {
+	font-size: 70%;
+}
