@@ -1,8 +1,10 @@
-30 pre-textos
+[30 pre-textos](http://30pre-textos.tuerco.com/)
 =====
 
 No hay un libro futuro, sólo 30 principios...
 ==
+
+[Live Site](http://30pre-textos.tuerco.com/)
 
 30 pre-textos es un proyecto de arte urbano que narra treinta principios de historias distribuidos por la ciudad de 
 Barcelona. Cada lugar elegido tiene relación con el comienzo de la historia y a su vez dialoga con el espacio que la 
