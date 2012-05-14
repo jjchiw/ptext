@@ -1,1 +1,0 @@
-ALTER TABLE `ptext`.`pretexts` ADD COLUMN `extra_title` VARCHAR(45) NOT NULL AFTER `lng`;
